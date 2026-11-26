@@ -1,0 +1,7 @@
+board,exploration,gap to BFS,optimal-action % (Q*),episodes to optimal
+board30,ε 1.0 -> 0.05 (default),0.0 ± 0.0,91.3 ± 3.5,50 ± 24
+board30,ε = 0 (no exploration),1.0 ± 0.8,55.1 ± 4.1,10 ± 0 (2 seed(s) not reached)
+board50,ε 1.0 -> 0.05 (default),0.0 ± 0.0,88.9 ± 3.2,437 ± 314
+board50,ε = 0 (no exploration),2.3 ± 0.5,47.0 ± 6.7,not reached
+board100,ε 1.0 -> 0.05 (default),0.0 ± 0.0,87.1 ± 5.7,60 ± 57
+board100,ε = 0 (no exploration),0.3 ± 0.5,33.3 ± 3.0,20 ± 0 (1 seed(s) not reached)

@@ -1,0 +1,13 @@
+board,policy,success %,avg moves,avg return,snakes/game
+board30,"Random choice (= single die, no decisions)",100.0,13.4225,55.818,1.101
+board30,Always larger die,98.65,23.694,-69.7875,0.7505
+board30,Value-iteration optimum,100.0,8.793,108.3455,0.1365
+board30,"Q-Learning (3 seeds, mean)",100.0,8.598166666666666,105.15666666666668,0.17916666666666667
+board50,"Random choice (= single die, no decisions)",100.0,20.789,27.224,2.2975
+board50,Always larger die,99.8,29.3285,-89.9685,1.7255
+board50,Value-iteration optimum,100.0,11.16,108.2065,0.25
+board50,"Q-Learning (3 seeds, mean)",100.0,11.392666666666665,106.93016666666666,0.27016666666666667
+board100,"Random choice (= single die, no decisions)",100.0,34.9905,25.26,2.735
+board100,Always larger die,100.0,38.9835,-86.916,1.805
+board100,Value-iteration optimum,100.0,16.881,117.813,0.248
+board100,"Q-Learning (3 seeds, mean)",100.0,16.964,114.79733333333333,0.2881666666666666

@@ -1,0 +1,13 @@
+board,algorithm,alpha,gap to BFS,optimal-action % (Q*),late stability %,episodes to optimal
+board30,Q-Learning,constant 0.1,0.0 ± 0.0,91.3 ± 3.5,100.0 ± 0.0,50 ± 24
+board30,Q-Learning,0.1 -> 0.01,0.0 ± 0.0,89.9 ± 4.1,100.0 ± 0.0,27 ± 17
+board30,SARSA,constant 0.1,0.0 ± 0.0,100.0 ± 0.0,99.4 ± 0.8,2000 ± 2730
+board30,SARSA,0.1 -> 0.01,0.0 ± 0.0,100.0 ± 0.0,100.0 ± 0.0,117 ± 66
+board50,Q-Learning,constant 0.1,0.0 ± 0.0,88.9 ± 3.2,100.0 ± 0.0,437 ± 314
+board50,Q-Learning,0.1 -> 0.01,0.0 ± 0.0,89.7 ± 2.1,100.0 ± 0.0,383 ± 408
+board50,SARSA,constant 0.1,0.0 ± 0.0,98.3 ± 1.2,64.1 ± 15.1,8923 ± 54
+board50,SARSA,0.1 -> 0.01,0.0 ± 0.0,97.4 ± 0.0,100.0 ± 0.0,497 ± 100
+board100,Q-Learning,constant 0.1,0.0 ± 0.0,87.1 ± 5.7,100.0 ± 0.0,60 ± 57
+board100,Q-Learning,0.1 -> 0.01,0.0 ± 0.0,80.3 ± 3.5,100.0 ± 0.0,997 ± 705
+board100,SARSA,constant 0.1,0.0 ± 0.0,92.0 ± 3.7,94.3 ± 0.7,14433 ± 258
+board100,SARSA,0.1 -> 0.01,0.0 ± 0.0,92.4 ± 0.6,100.0 ± 0.0,160 ± 36

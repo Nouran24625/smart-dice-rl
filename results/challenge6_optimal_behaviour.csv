@@ -1,0 +1,16 @@
+board,scheme,optimal policy finishes?,moves,ladders,snakes,first squares visited
+board30,brief,True,4,2,0,1 -> 3 -> 16 -> 25 -> 30
+board30,sparse,True,4,2,0,1 -> 3 -> 16 -> 25 -> 30
+board30,no step cost,True,4,2,0,1 -> 3 -> 16 -> 25 -> 30
+board30,goal only,True,4,2,0,1 -> 3 -> 16 -> 25 -> 30
+board30,big ladder,False,120,60,59,1 -> 3 -> 16 -> 25 -> 19 -> 25 -> 19 -> 25 -> 19 ...
+board50,brief,True,5,2,0,1 -> 16 -> 22 -> 28 -> 47 -> 50
+board50,sparse,True,5,2,0,1 -> 16 -> 22 -> 28 -> 47 -> 50
+board50,no step cost,True,5,2,0,1 -> 16 -> 22 -> 28 -> 47 -> 50
+board50,goal only,True,5,2,0,1 -> 16 -> 22 -> 28 -> 47 -> 50
+board50,big ladder,True,5,2,0,1 -> 16 -> 22 -> 28 -> 47 -> 50
+board100,brief,True,6,4,0,1 -> 16 -> 38 -> 44 -> 62 -> 96 -> 100
+board100,sparse,True,6,4,0,1 -> 16 -> 38 -> 44 -> 62 -> 96 -> 100
+board100,no step cost,True,6,4,0,1 -> 16 -> 38 -> 44 -> 62 -> 96 -> 100
+board100,goal only,True,6,4,0,1 -> 16 -> 38 -> 44 -> 62 -> 96 -> 100
+board100,big ladder,False,400,201,199,1 -> 16 -> 38 -> 17 -> 38 -> 17 -> 38 -> 17 -> 38 ...
